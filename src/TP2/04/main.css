@@ -1,0 +1,67 @@
+/* Estilos gerais */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.containerFormulario {
+  max-width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.formularioProduto {
+  display: flex;
+  flex-direction: column;
+}
+
+.caixaFormulario {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.caixaFormulario label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.caixaFormulario input,
+.caixaFormulario select,
+.caixaFormulario textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #333;
+  transition: border-color 0.3s;
+}
+
+.caixaFormulario input:focus,
+.caixaFormulario select:focus,
+.caixaFormulario textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.submit-button {
+  padding: 12px 20px;
+  background-color: #086d32;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #06925c;
+}

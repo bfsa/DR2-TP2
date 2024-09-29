@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+div {
+  text-align: center;
+  margin-top: 20px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+h1 {
+  font-size: 18px;
+  color: black;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 14px;
+  color: #333;
+  margin-top: 20px;
+}

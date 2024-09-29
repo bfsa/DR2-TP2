@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.component {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.containerImagens {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 20px;
+  max-width: 100%; 
+}
+
+.containerImagens img {
+  width: 150px;
+  height: 150px;
+}
+
+.containerMain {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 20px;
+  max-width: 100%; 
+}
+
+.descricao, .imagemGrande {
+  flex: 1; 
+  margin: 0 10px; 
+}
+
+.imagemGrande img {
+  max-width: 100%;
+  height: auto;
+}
